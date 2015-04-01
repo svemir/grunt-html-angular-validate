@@ -176,13 +176,13 @@ grunt.initConfig({
         ],
         relaxerror: [
             'The frameborder attribute on the iframe element is obsolete. Use CSS instead.'
-        ]
+        ],
         reportpath: 'target/html-angular-validate-report.json'
     },
     files: {
-      src: ['src/www/**/*.html', 'src/www/**/*.html.tmpl'],
-    },
-  },
+      src: ['src/www/**/*.html', 'src/www/**/*.html.tmpl']
+    }
+  }
 });
 ```
 
